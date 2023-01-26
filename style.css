@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Montserrat:wght@100;400&family=Orbitron:wght@600&family=Poppins:wght@500&family=Rubik+Vinyl&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    background: linear-gradient(to top left, #4ce0e0, #287a7a);
+    position: relative;
+    z-index: -3;
+}
+.watch{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watchBorder{
+    height: 50vh;
+    background: linear-gradient(to right top, #969698,#4a4a4b);
+    width: 50vh;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.watchFace{
+    height: 40vh;
+    background: black;
+    width: 40vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.4) */
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron' ;
+}
+.strap{
+    height: 100vh;
+    width: 10%;
+    background: linear-gradient(to right top, #969698,#4a4a4b);
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    z-index: -2;
+    border-radius: 1rem;
+}
